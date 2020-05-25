@@ -125,12 +125,10 @@ async () => {
     onNextStep();
     return;
   }
-  debugger;
   typewriter(new Array("Here are more of your shadows:", ...antonyms), onNextStep);
 },
 
 () => {
-  debugger;
   addButtonElement("I want to learn more", onNextStep);
 },
 

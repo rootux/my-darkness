@@ -1,6 +1,9 @@
 class API {
   static _getAntonym(word) {
     return axios({
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
       url: `https://api.datamuse.com/words?rel_ant=${word}`,
       method: 'GET',
     });
@@ -8,9 +11,12 @@ class API {
 
   static _getSimilar(word) {
     return axios({
-    url: `https://api.datamuse.com/words?ml=${word}`,
-    method: 'GET',
-  });
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+      },
+      url: `https://api.datamuse.com/words?ml=${word}`,
+      method: 'GET',
+    });
   }
 
   static async getSimilars(words) {

@@ -16,3 +16,7 @@ input {
   margin-top: 0.5em;
   padding: 10px;
 }
+
+input[type=text] {
+  min-width: 20em;
+}

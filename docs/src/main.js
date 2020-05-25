@@ -11,6 +11,8 @@ let currentRow = 0;
   
 const destination = document.getElementById("typedtext");
 
+API.init();
+
 function typewriter(text, onNextStep)
 {
   let iArrLength = text[currentRow].length; // the length of the text array

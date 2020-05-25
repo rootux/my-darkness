@@ -1,13 +1,17 @@
 class API {
+  static init() {
+    axios.defaults.baseURL = '`https://api.datamuse.com/';
+  }
+
   static _getAntonym(word) {
     return axios.get(
-      `https://api.datamuse.com/words?rel_ant=${word}`,
+      `words?rel_ant=${word}`,
     );
   }
 
   static _getSimilar(word) {
     return axios.get(
-      `https://api.datamuse.com/words?ml=${word}`,
+      `words?ml=${word}`,
     );
   }
 

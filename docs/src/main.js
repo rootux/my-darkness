@@ -1,5 +1,5 @@
 
-const speed = 100; // Time delay of print out
+const speed = 30; // Time delay of print out
 let index = 0; // start printing array at this posision
 const scrollAtLines = 20; // Start scrolling up at this many lines
 const lineSpeed = 500;

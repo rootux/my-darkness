@@ -1,8 +1,9 @@
 
-const speed = 0; //100 // time delay of print out
+const speed = 100; // Time delay of print out
 let index = 0; // start printing array at this posision
-const scrollAtLines = 20; // start scrolling up at this many lines
-const lineSpeed = 0; //500
+const scrollAtLines = 20; // Start scrolling up at this many lines
+const lineSpeed = 500;
+let currentState = 0; // Change this when debugging states
 
 let textPost = 0;
 let content = '';
@@ -50,7 +51,6 @@ const text = new Array(
 typewriter(text, onNextStep);
 })();
 
-let currentState = 3; //TODO;
 let name;
 let lightParts;
 let similarLightParts;

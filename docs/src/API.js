@@ -1,21 +1,13 @@
 class API {
   static _getAntonym(word) {
-    return axios({
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-      },
+    return axios.get({
       url: `https://api.datamuse.com/words?rel_ant=${word}`,
-      method: 'GET',
     });
   }
 
   static _getSimilar(word) {
-    return axios({
-      headers: {
-        'Access-Control-Allow-Origin': '*',
-      },
+    return axios.get({
       url: `https://api.datamuse.com/words?ml=${word}`,
-      method: 'GET',
     });
   }
 

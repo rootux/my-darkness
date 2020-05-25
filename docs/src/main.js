@@ -46,7 +46,7 @@ function typewriter(text, onNextStep)
 const text = new Array(
   "Welcome brave soul to the big Cave simulation 🕳️⛰️", 
   "What is your name?",
-  ""
+  " "
   );
 typewriter(text, onNextStep);
 })();
@@ -76,10 +76,10 @@ const state = [
   const text = new Array("What are shadows?",
   "A shadow is a part of our personality that is Repressed",
   "Those are parts that we are afraid to meet and to acknowledge",
-  "",
+  " ",
   "It's scary to understand that this is part of us.",
   "So we throw them outside and fight with them outside of us.",
-  "",
+  " ",
   "How will your good friend define you?",
   `For example - ${name} is Beautiful. ${name} is charming ${name} is strong`);
   typewriter(text, onNextStep);
@@ -134,7 +134,7 @@ async () => {
 
 () => {
   typewriter(new Array("There is always something deep to learn from the shadow.",
-  "",
+  " ",
   "If you want to learn more join us on our journey",
   "<a href='https://www.facebook.com/rootux'>Message Gal on Facebook</a>",
   "Thank you"), () => {console.log("Done")});

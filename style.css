@@ -1,0 +1,18 @@
+body {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size:30px; 
+  margin: 1em 3em;
+  letter-spacing: 4px; 
+  font-weight: bold;
+}
+
+input {
+  font-family: 'Waiting for the Sunrise', cursive; 
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+  padding: 10px;
+}

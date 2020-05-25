@@ -1,14 +1,14 @@
 class API {
   static _getAntonym(word) {
-    return axios.get({
-      url: `https://api.datamuse.com/words?rel_ant=${word}`,
-    });
+    return axios.get(
+      `https://api.datamuse.com/words?rel_ant=${word}`,
+    );
   }
 
   static _getSimilar(word) {
-    return axios.get({
-      url: `https://api.datamuse.com/words?ml=${word}`,
-    });
+    return axios.get(
+      `https://api.datamuse.com/words?ml=${word}`,
+    );
   }
 
   static async getSimilars(words) {

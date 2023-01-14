@@ -21,7 +21,7 @@
     "raw-loader": "^0.5.1",
     "stats.js": "^0.17.0",
     "webpack": "^4.26.0",
-    "webpack-cli": "^3.1.2",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.2.1"
   },
   "dependencies": {
